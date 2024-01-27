@@ -13,10 +13,11 @@ function SportsCar(make, model, topSpeed) {
 	
 }
 SportsCar.prototype = Object.create(Car.prototype)
-// Do not change the code below
-window.Car = Car;
-window.SportsCar = SportsCar;
 
 SportsCar.prototype.getTopSpeed = function() {
 	return this.topSpeed 
 }
+// Do not change the code below
+window.Car = Car;
+window.SportsCar = SportsCar;
+
