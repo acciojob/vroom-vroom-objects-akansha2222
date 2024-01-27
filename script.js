@@ -12,8 +12,7 @@ function Car(make, model) {
 }
 
 function SportsCar(make, model, topSpeed) {
-		this.make = make
-		this.model = model
+		Car.call(this, make, model);
 	this.topSpeed = topSpeed
 	
 }
