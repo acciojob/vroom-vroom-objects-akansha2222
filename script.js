@@ -1,10 +1,6 @@
 // Complete the js code
 function Car(make, model) {
-	function getMakeModel()
-		{
-		this.make = make
-		this.model = model
-		}
+
 		Car.prototype.getMakeModel = function()
 		{
 			return this.make + " " + this.model
@@ -22,5 +18,5 @@ window.Car = Car;
 window.SportsCar = SportsCar;
 
 SportsCar.prototype.getTopSpeed = function() {
-	return this.TopSpeed 
+	return this.topSpeed 
 }
